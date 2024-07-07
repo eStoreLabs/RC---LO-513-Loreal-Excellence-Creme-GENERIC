@@ -112,6 +112,7 @@ body {
   letter-spacing: -1px;
   font-size: 14px;
   color: #fff;
+  font-weight: 500;
 }
 #es-loreal.es-loreal .es-kv__disclaimer {
   letter-spacing: -1px;
@@ -155,7 +156,6 @@ body {
   width: 100%;
 }
 #es-loreal.es-loreal .es-kv__logo {
-  margin-bottom: 20px;
   opacity: 0;
   animation: slidedown 0.8s ease forwards;
 }
@@ -443,6 +443,11 @@ body {
   text-align: center;
   margin-bottom: 20px;
 }
+#es-loreal.es-loreal .es-howto__subtitle {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
 #es-loreal.es-loreal .es-howto__disclaimer {
   padding: 27px 10px;
   font-weight: 700;
@@ -551,6 +556,8 @@ body {
 #es-loreal.es-loreal .es-info__subtitle {
   margin: 0;
   padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
@@ -682,6 +689,8 @@ body {
 #es-loreal.es-loreal .es-ba__subtitle {
   margin: 0;
   padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
@@ -802,6 +811,11 @@ body {
   font-weight: 800;
   margin-bottom: 24px;
   text-align: center;
+}
+#es-loreal.es-loreal .es-cross__subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 #es-loreal.es-loreal .es-cross__desc {
   margin: 0;
@@ -1055,7 +1069,8 @@ body {
     right: 8%;
   }
   #es-loreal.es-loreal .es-kv__imgBrand {
-    transform: scale(0.8);
+    margin-bottom: 20px;
+    transform: scale(0.7);
   }
   #es-loreal.es-loreal .es-info {
     position: relative;

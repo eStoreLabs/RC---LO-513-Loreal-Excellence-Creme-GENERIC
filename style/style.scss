@@ -154,6 +154,7 @@ $black: #1d1d1b;
       letter-spacing: -1px;
       font-size: 14px;
       color: #fff;
+      font-weight: 500;
     }
     &__disclaimer {
       letter-spacing: -1px;
@@ -199,7 +200,7 @@ $black: #1d1d1b;
       width: 100%;
     }
     &__logo {
-      margin-bottom: 20px;
+      // margin-bottom: 20px;
       opacity: 0;
       -webkit-animation: slidedown 0.8s ease forwards;
       animation: slidedown 0.8s ease forwards;
@@ -631,6 +632,12 @@ $black: #1d1d1b;
       margin-bottom: 20px;
     }
 
+    &__subtitle {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
     &__disclaimer {
       padding: 27px 10px;
       font-weight: 700;
@@ -755,6 +762,8 @@ $black: #1d1d1b;
     &__subtitle {
       margin: 0;
       padding: 0;
+      max-width: 400px;
+      margin: 0 auto;
       line-height: inherit;
       color: inherit;
       font-family: inherit;
@@ -886,6 +895,8 @@ $black: #1d1d1b;
     &__subtitle {
       margin: 0;
       padding: 0;
+      max-width: 500px;
+      margin: 0 auto;
       line-height: inherit;
       color: inherit;
       font-family: inherit;
@@ -1020,6 +1031,11 @@ $black: #1d1d1b;
       font-weight: 800;
       margin-bottom: 24px;
       text-align: center;
+    }
+    &__subtitle {
+      max-width: 600px;
+      margin: 0 auto;
+      margin-bottom: 30px;
     }
     &__desc {
       margin: 0;
@@ -1335,7 +1351,8 @@ $black: #1d1d1b;
         right: 8%;
       }
       &__imgBrand {
-        transform: scale(0.8);
+        margin-bottom: 20px;
+        transform: scale(0.7);
       }
     }
 
