@@ -737,7 +737,8 @@ $black: #1d1d1b;
     }
 
     &__text {
-      margin: 0;
+      max-width: 246px;
+      margin: 0 auto;
       padding: 0;
       line-height: inherit;
       color: inherit;
@@ -1325,7 +1326,7 @@ $black: #1d1d1b;
 
       &__name {
         font-size: 14px;
-        min-height: 20px;
+        min-height: 35px;
         margin-bottom: 0;
       }
     }

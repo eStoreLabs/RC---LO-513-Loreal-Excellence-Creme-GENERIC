@@ -642,7 +642,8 @@ body {
   font-weight: bold;
 }
 #es-loreal.es-loreal .es-info__text {
-  margin: 0;
+  max-width: 246px;
+  margin: 0 auto;
   padding: 0;
   line-height: inherit;
   color: inherit;
@@ -1136,7 +1137,7 @@ body {
   }
   #es-loreal.es-loreal .es-info__name {
     font-size: 14px;
-    min-height: 20px;
+    min-height: 35px;
     margin-bottom: 0;
   }
   #es-loreal.es-loreal .es-ba__title {
